@@ -194,7 +194,7 @@ module.hot.accept(reloadCSS);
 
 require("./styles.css");
 
-document.getElementById("app").innerHTML = "\n\n <img src=\"https://i.imgur.com/HSsvvXC.png\"/>\n\n<h1>xINO Apparell</h1>\n\n<div>\n  <ul>\n  \n <li>\n   Men\n     <select>\n       <option>\n         jeans\n       </option>\n     </select>\n   </li>\n   \n <li>\n   Women\n     <select>\n       <option>\n         jeans\n       </option>\n     </select>\n   </li>\n   \n <li>\n   Kids\n     <select>\n        <option>\n               <a href=\"https://www.google.com\">Tops</a>\n         </option>\n         <option>\n               Bottoms\n         </option>\n     </select>\n   </li>\n \n  </ul>\n  </div>\n";
+document.getElementById("app").innerHTML = "\n<div class=\"background\">\n <img src=\"https://i.imgur.com/HSsvvXC.png\"/>\n \n<div class=\"textoutline\">\n<h1>xINO Apparell</h1>\n<h1><br/></h1>\n</div>\n\n</div>\n\n<div>\n</br>\n  <ul>\n  \n <li>\n   Men\n     <select>\n       <option>\n         jeans\n       </option>\n     </select>\n   </li>\n   \n <li>\n   Women\n     <select>\n       <option>\n         jeans\n       </option>\n     </select>\n   </li>\n   \n <li>\n   Kids\n     <select>\n        <option>\n               <a href=\"https://www.google.com\">Tops</a>\n         </option>\n         <option>\n               Bottoms\n         </option>\n     </select>\n   </li>\n \n  </ul>\n  </div>\n";
 },{"./styles.css":"src/styles.css"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -223,7 +223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58053" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60227" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
